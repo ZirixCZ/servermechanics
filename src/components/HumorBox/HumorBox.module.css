@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12em;
+    width: 25em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 12px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(10, 10, 10, 0.2) 0 5px 5px;
+}
+
+.wrapper {
+    max-width: calc(100% - 2em);
+}
+
+.wrapper h3 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.wrapper h2 {
+    font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 80%;
+    }
+
+    .wrapper h2 {
+        font-size: 1.5em;
+    }
+}
